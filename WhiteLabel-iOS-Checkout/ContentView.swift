@@ -12,11 +12,13 @@ struct ContentView: View {
         VStack {
             Text("{{text.name}}")
                     .padding()
+            Text("{{text.slogan}}")
             Button {
                 print("clicked!")
             } label: {
                 Text("{{button.checkout.name}}")
             }
+            Text("{{text.title}}")
             Text("{{text.footer}}")
         }
     }
