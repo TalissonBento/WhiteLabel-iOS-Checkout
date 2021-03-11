@@ -10,16 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image("AppIcon")
             Text("{{text.name}}")
                     .padding()
-            Text("{{text.slogan}}")
             Button {
                 print("clicked!")
             } label: {
                 Text("{{button.checkout.name}}")
             }
-            Text("{{text.title}}")
-            Text("{{text.footer}}")
         }
     }
 }
