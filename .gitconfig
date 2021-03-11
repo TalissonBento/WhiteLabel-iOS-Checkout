@@ -1,2 +1,2 @@
 [merge "local"]
-	driver = echo `cat %A` > %A
+	driver = cat %A > %A
