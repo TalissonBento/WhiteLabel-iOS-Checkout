@@ -1,2 +1,4 @@
 [merge "local"]
 	driver = cat %A > %A
+[merge "remote"]
+	driver = cat %B > %A

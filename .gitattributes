@@ -1,1 +1,3 @@
+.gitconfig merge=remote
+.gitattributes merge=remote
 WhiteLabel-iOS-Checkout/ContentView.swift merge=local
