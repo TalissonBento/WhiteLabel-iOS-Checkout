@@ -17,6 +17,7 @@ struct ContentView: View {
             } label: {
                 Text("{{button.checkout.name}}")
             }
+            Text("{{text.footer}}")
         }
     }
 }
