@@ -1,3 +1,2 @@
-[merge "keep_local"]
-	name = always keep local changes on merge conflict
+[merge "local"]
 	driver = true
